@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devlog — hassan2bit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-grid"></div>
+
+    <header>
+      <div class="header-inner">
+        <div class="logo">dev<span>log</span><span class="cursor">_</span></div>
+        <div class="header-right">
+          <span class="meta-text" id="entry-count"></span>
+          <button class="theme-btn" id="themeBtn" title="Toggle theme">
+            ◑
+          </button>
+        </div>
+      </div>
+      <div class="header-sub">
+        a running record of things i built, fixed, learned &amp; figured out
+      </div>
+    </header>
+
+    <main>
+      <div class="controls">
+        <div class="filters" id="filters">
+          <button class="filter-btn active" data-filter="all">all</button>
+          <button class="filter-btn" data-filter="built">built</button>
+          <button class="filter-btn" data-filter="learned">learned</button>
+          <button class="filter-btn" data-filter="fixed">fixed</button>
+          <button class="filter-btn" data-filter="figured out">
+            figured out
+          </button>
+        </div>
+        <div class="search-wrap">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="search entries..."
+            class="search-input"
+          />
+        </div>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+
+      <div class="empty-state" id="emptyState" style="display: none">
+        <span class="mono">// no entries match</span>
+      </div>
+    </main>
+
+    <footer>
+      <span class="mono"
+        >hassan2bit ·
+        <a href="https://github.com/hassan2bit" target="_blank">github</a></span
+      >
+      <span class="mono" id="last-updated"></span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
