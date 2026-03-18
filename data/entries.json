@@ -2,57 +2,96 @@
   {
     "date": "2026-03-18",
     "tag": "built",
+    "title": "devlog-cli",
+    "desc": "a cli that interactively create you a json file containing your dev logs based on \"built\", \"learnt\", \"figured out\"..etc",
+    "stack": [
+      "javascript",
+      "npm.js"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "tag": "built",
     "title": "Deployed JIA — AI goal accountability app",
     "desc": "Vibecoded a full goal manager with AI advisor, heatmap, line chart, and weekly reflect tab. First real shipped product. Wired to DeepSeek API for the chat layer.",
-    "stack": ["HTML", "CSS", "JS", "DeepSeek API", "Netlify"]
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS",
+      "DeepSeek API",
+      "Netlify"
+    ]
   },
   {
     "date": "2026-03-14",
     "tag": "figured out",
     "title": "Git staging strategies for open source contributions",
     "desc": "Finally understood the difference between git add ., explicit file staging, and git add -p. Patch mode is the move for clean commits.",
-    "stack": ["Git"]
+    "stack": [
+      "Git"
+    ]
   },
   {
     "date": "2026-03-10",
     "tag": "fixed",
     "title": "MongoDB connection dropping silently on idle",
     "desc": "Traced it to a missing keepAlive option in the Mongoose connect config. One line fix after two hours of debugging. Always check connection options first.",
-    "stack": ["MongoDB", "Mongoose", "Node.js"]
+    "stack": [
+      "MongoDB",
+      "Mongoose",
+      "Node.js"
+    ]
   },
   {
     "date": "2026-03-06",
     "tag": "learned",
     "title": "How 2's complement actually works",
     "desc": "Clicked after using BASE-N mode on the Casio fx-991ES Plus to visualize it. Invert all bits then add 1. Not just theory anymore.",
-    "stack": ["Binary", "COS 101"]
+    "stack": [
+      "Binary",
+      "COS 101"
+    ]
   },
   {
     "date": "2026-03-02",
     "tag": "built",
     "title": "Started CBT platform — MEN stack",
     "desc": "Scaffolded the university computer-based testing platform. MongoDB schemas for users, questions, exams. Express routes for auth and exam flow.",
-    "stack": ["Node.js", "Express", "MongoDB"]
+    "stack": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ]
   },
   {
     "date": "2026-02-24",
     "tag": "learned",
     "title": "Network topologies and their cable types",
     "desc": "Bus uses coaxial, star uses UTP/STP twisted pair, ring uses token passing. Mapped them all for COS 101 and it finally makes sense structurally.",
-    "stack": ["Networking", "COS 101"]
+    "stack": [
+      "Networking",
+      "COS 101"
+    ]
   },
   {
     "date": "2026-02-18",
     "tag": "figured out",
     "title": "Why REST API design matters from day one",
     "desc": "Refactored a messy Express router and realized bad naming conventions compounded fast. Naming routes after resources not actions changes everything.",
-    "stack": ["Express", "REST", "Node.js"]
+    "stack": [
+      "Express",
+      "REST",
+      "Node.js"
+    ]
   },
   {
     "date": "2026-02-10",
     "tag": "fixed",
     "title": "PHP session variables not persisting across pages",
     "desc": "Forgot session_start() at the top of every page that uses $_SESSION. Embarrassingly simple. Will not forget again.",
-    "stack": ["PHP", "CSC 102"]
+    "stack": [
+      "PHP",
+      "CSC 102"
+    ]
   }
 ]
