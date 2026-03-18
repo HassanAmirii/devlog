@@ -15,14 +15,7 @@ A clean, minimal developer journal to log what you build, fix, learn and figure 
 
 ## Deploy in 2 minutes
 
-**Option A — Netlify (recommended)**
-
-1. Fork this repo
-2. Go to [netlify.com/drop](https://netlify.com/drop)
-3. Drag your project folder onto the page
-4. Done — live URL instantly
-
-**Option B — GitHub Pages**
+**— GITHUBPAGES (recommended)**
 
 1. Fork this repo
 2. Go to repo Settings → Pages → set source to main branch
