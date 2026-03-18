@@ -24,7 +24,7 @@ A clean, minimal developer journal to log what you build, fix, learn and figure 
 
 **Option B — GitHub Pages**
 
-1. Fork this repo, rename it to `yourusername.github.io/devlog`
+1. Fork this repo
 2. Go to repo Settings → Pages → set source to main branch
 3. Live at `yourusername.github.io/devlog`
 
@@ -47,7 +47,7 @@ Tags: `built` · `learned` · `fixed` · `figured out`
 Or use the [devlg](https://github.com/HassanAmirii/devlog-cli) CLI tool to add entries from your terminal anywhere on your machine:
 
 ```bash
-npm install -g devlg
+npm install -g @hassan2bit/devlg
 devlg init
 devlg
 ```
@@ -80,4 +80,3 @@ Drop it as an iframe anywhere:
 ## License
 
 MIT — fork it, change it, make it yours.
-READMEEOF
