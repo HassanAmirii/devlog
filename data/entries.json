@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-19",
+    "tag": "learned",
+    "title": "Finished PHP control flow assignment",
+    "desc": "understood how switch differs from if-else in edge cases",
+    "stack": [
+      "php",
+      "syntax",
+      "uni"
+    ]
+  },
+  {
     "date": "2026-03-18",
     "tag": "fixed",
     "title": "Configured Cross-Origin Resource Sharing (CORS)",
