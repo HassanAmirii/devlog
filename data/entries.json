@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-20",
+    "tag": "figured out",
+    "title": "systemic thinking : (state ->  event -> transition)",
+    "desc": "A better approach to writing code instead of just iterating on a fractured thought, i start by really thinking from the user's pov, list out all possible state, event and transition and invariants. then begin wrting and reiterating on a solid system",
+    "stack": [
+      "thinking",
+      "foundation",
+      "better"
+    ]
+  },
+  {
     "date": "2026-03-19",
     "tag": "learned",
     "title": "Finished PHP control flow assignment",
