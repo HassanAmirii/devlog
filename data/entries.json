@@ -4,76 +4,48 @@
     "tag": "figured out",
     "title": "systemic thinking : (state ->  event -> transition)",
     "desc": "A better approach to writing code instead of just iterating on a fractured thought, i start by really thinking from the user's pov, list out all possible state, event and transition and invariants. then begin wrting and reiterating on a solid system",
-    "stack": [
-      "thinking",
-      "foundation",
-      "better"
-    ]
+    "stack": ["thinking", "foundation", "better"]
   },
   {
     "date": "2026-03-19",
     "tag": "learned",
     "title": "Finished PHP control flow assignment",
     "desc": "understood how switch differs from if-else in edge cases",
-    "stack": [
-      "php",
-      "syntax",
-      "uni"
-    ]
+    "stack": ["php", "syntax", "uni"]
   },
   {
     "date": "2026-03-18",
     "tag": "fixed",
     "title": "Configured Cross-Origin Resource Sharing (CORS)",
     "desc": "Implemented CORS middleware to whitelist the production frontend URL. Defined allowed origins, methods, and headers to enable secure cross-domain communication between the frontend and the Python backend.",
-    "stack": [
-      "Python",
-      "fastapi.middleware.cors"
-    ]
+    "stack": ["Python", "fastapi.middleware.cors"]
   },
   {
     "date": "2026-03-18",
     "tag": "fixed",
     "title": "deploy a backend repo on render",
     "desc": "Successfully deployed backend repository to Render. Established secure database connectivity using Neon PostgreSQL connection strings and environment variable configuration.",
-    "stack": [
-      "render(paas)",
-      "neon(postgresql)",
-      ".env(secret management)"
-    ]
+    "stack": ["render(paas)", "neon(postgresql)", ".env(secret management)"]
   },
   {
     "date": "2026-03-18",
     "tag": "built",
     "title": "devlog-cli",
     "desc": "a cli that interactively create you a json file containing your dev logs based on \"built\", \"learnt\", \"figured out\"..etc",
-    "stack": [
-      "javascript",
-      "npm.js"
-    ]
+    "stack": ["javascript", "npm.js"]
   },
   {
     "date": "2026-03-18",
     "tag": "built",
     "title": "Deployed JIA — AI goal accountability app",
-    "desc": "Vibecoded a full goal manager with AI advisor, heatmap, line chart, and weekly reflect tab. Wired to groq API for the chat layer.",
-    "stack": [
-      "HTML",
-      "CSS",
-      "JS",
-      "groq API",
-      "Netlify"
-    ]
+    "desc": "goal manager with AI advisor, heatmap, line chart, and weekly reflect tab. Wired to groq API for the chat layer.",
+    "stack": ["HTML", "CSS", "JS", "groq API", "Netlify"]
   },
   {
     "date": "2026-03-02",
     "tag": "built",
     "title": "Started CBT platform — MEN stack",
     "desc": "Scaffolded the university computer-based testing platform. MongoDB schemas for users, questions, exams. Express routes for auth and exam flow.",
-    "stack": [
-      "Node.js",
-      "Express",
-      "MongoDB"
-    ]
+    "stack": ["Node.js", "Express", "MongoDB"]
   }
 ]
