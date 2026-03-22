@@ -146,14 +146,15 @@ function renderTimeline() {
             ${!isLast ? '<div class="entry-line"></div>' : ""}
             <div class="entry-day">${day.split(" ")[1]}</div>
           </div>
-          <div class="entry-card">
-            <div class="entry-top">
-              <span class="tag ${cfg.cls}">${entry.tag}</span>
-              <span class="entry-title">${entry.title}</span>
-            </div>
-            <div class="entry-desc">${entry.desc}</div>
-            ${entry.stack.length ? `<div class="entry-stack">${stackHtml}</div>` : ""}
-          </div>
+<div class="entry-card">
+  <div class="entry-top">
+    <span class="tag ${cfg.cls}">${entry.tag}</span>
+    <span class="entry-title">${entry.title}</span>
+  </div>
+  <div class="entry-desc">${entry.desc}</div>
+  ${entry.stack.length ? `<div class="entry-stack">${stackHtml}</div>` : ""}
+  ${entry.link ? `<a href="${entry.link}" target="_blank" class="entry-link">↗ reference</a>` : ""}
+</div>
         </div>`;
       delay++;
     });

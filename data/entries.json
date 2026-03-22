@@ -2,6 +2,18 @@
   {
     "date": "2026-03-22",
     "tag": "built",
+    "title": "add link input for log reference in new entry construct",
+    "desc": "implemented link input to store reference of each log, so each log could be trace down for evidence",
+    "stack": [
+      "cli",
+      "js",
+      "personal-project"
+    ],
+    "link": "https://www.npmjs.com/package/@hassan2bit/devlg"
+  },
+  {
+    "date": "2026-03-22",
+    "tag": "built",
     "title": "feat: implemented exam scoring logic",
     "desc": "implemented exam scoring logic on service, connected to controller to handle req/res cycle, mounted on route and tested with postman",
     "stack": [
