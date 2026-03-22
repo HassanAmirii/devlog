@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-22",
+    "tag": "built",
+    "title": "feat: implemented exam scoring logic",
+    "desc": "implemented exam scoring logic on service, connected to controller to handle req/res cycle, mounted on route and tested with postman",
+    "stack": [
+      "nodeJS",
+      "expressJS",
+      "javascript",
+      "backend",
+      "api",
+      "personal_project"
+    ]
+  },
+  {
     "date": "2026-03-21",
     "tag": "built",
     "title": "Feat: Implemented business logic to handle questions data in cbt_api",
