@@ -2,6 +2,20 @@
   {
     "date": "2026-03-23",
     "tag": "built",
+    "title": "feat: implemented an exponential back off",
+    "desc": "implemented an exponential back off to handle db connection retries within max time and eventually give up to process.exit 1 if failed",
+    "stack": [
+      "server",
+      "db",
+      "mern",
+      "personal_project",
+      "api"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/abc41bbf2363954c445182bd96e7055bcdecd753"
+  },
+  {
+    "date": "2026-03-23",
+    "tag": "built",
     "title": "process.exit(1)",
     "desc": "add process exit 1 to terminate the server incase of db connectiion fail in other to manage resources, tho the process manager keeps restarting subsequently in hopes of a succeful connection",
     "stack": [
