@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-23",
+    "tag": "built",
+    "title": "process.exit(1)",
+    "desc": "add process exit 1 to terminate the server incase of db connectiion fail in other to manage resources, tho the process manager keeps restarting subsequently in hopes of a succeful connection",
+    "stack": [
+      "nodejs",
+      "backend",
+      "mongodb",
+      "mongoose",
+      "personal-project"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/507fe6d0ff2aa3511655c9667298a3570d1ef50a"
+  },
+  {
     "date": "2026-03-22",
     "tag": "built",
     "title": "add link input for log reference in new entry construct",
