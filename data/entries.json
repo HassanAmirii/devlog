@@ -1,6 +1,19 @@
 [
   {
     "date": "2026-03-23",
+    "tag": "figured out",
+    "title": "sitting with complexity",
+    "desc": "realized the only way out of facing a sudden complexity while building is through complexity; most time when i come across one i alawys assume i needed to solve somthing simple first to be able to handle this or procrastinate to go work on something new or different. i was wrong and holding a wrong mindset.",
+    "stack": [
+      "mindset",
+      "confidence",
+      "win",
+      "learning",
+      "forward"
+    ]
+  },
+  {
+    "date": "2026-03-23",
     "tag": "built",
     "title": "feat: implemented an exponential back off",
     "desc": "implemented an exponential back off to handle db connection retries within max time and eventually give up to process.exit 1 if failed",
