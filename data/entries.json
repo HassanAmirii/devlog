@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-03-24",
+    "tag": "built",
+    "title": "finished cbt api (v1)",
+    "desc": "completed v1 of cbt platform api i am building for my department(compsci) to practice questions effciently and reduce the manual labor by > 50%",
+    "stack": [
+      "mongodb",
+      "nodejs",
+      "js",
+      "expressjs",
+      "mongoose",
+      "api",
+      "personal_project"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api"
+  },
+  {
     "date": "2026-03-23",
     "tag": "figured out",
     "title": "sitting with complexity",
