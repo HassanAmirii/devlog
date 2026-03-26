@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-03-26",
+    "tag": "built",
+    "title": "feat: add swagger yaml for api documentation",
+    "desc": "add swagger yaml for api documentation",
+    "stack": [
+      "men",
+      "api",
+      "backend"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/9bece0184ce62d03462637b47ab9b0018fa42b19"
+  },
+  {
     "date": "2026-03-25",
     "tag": "built",
     "title": "global error handler",
