@@ -4,7 +4,7 @@ A clean, minimal developer journal to log what you build, fix, learn and figure 
 
 ## Features
 
-- six entry types: built, learned, fixed, figured out, keep, wins
+- seven entry types: built, learned, fixed, figured out, reflection, keep, wins
 - Filter by tag, live search
 - Grouped by month with timeline view
 - Color coded dots and cards per entry type
@@ -35,7 +35,7 @@ Open `data/entries.json` and add a new object at the top of the array:
 }
 ```
 
-Tags: `built` · `learned` · `fixed` · `figured out`· `keep` · `wins`
+Tags: `built` · `learned` · `fixed` · `figured out` · `reflection` · `keep` · `wins`
 
 Or use the [devlg](https://github.com/HassanAmirii/devlog-cli) CLI tool to add entries from your terminal anywhere on your machine:
 

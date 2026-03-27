@@ -10,6 +10,7 @@ const TAG_CONFIG = {
   learned: { dotColor: "#378add", cls: "tag-learned" },
   fixed: { dotColor: "#d85a30", cls: "tag-fixed" },
   "figured out": { dotColor: "#ba7517", cls: "tag-figured" },
+  reflection: { dotColor: "#f05cff", cls: "tag-reflection" },
   keep: { dotColor: "#6c63d4", cls: "tag-keep" },
   wins: { dotColor: "#c4407a", cls: "tag-wins" },
 };

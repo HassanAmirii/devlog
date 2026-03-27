@@ -34,6 +34,9 @@
   --figured-bg: #fdf0dc;
   --figured-text: #7a4a0a;
   --figured-dot: #ba7517;
+  --reflection-bg: #fbe7ff;
+  --reflection-text: #7a1f91;
+  --reflection-dot: #f05cff;
   --keep-bg: #ececfb;
   --keep-text: #3d3a9e;
   --keep-dot: #6c63d4;
@@ -60,6 +63,9 @@
   --fixed-text: #e89070;
   --figured-bg: #261a08;
   --figured-text: #e0aa60;
+  --reflection-bg: #2b0e36;
+  --reflection-text: #e498f5;
+  --reflection-dot: #f05cff;
   --keep-bg: #1c1a3a;
   --keep-text: #a9a4f0;
   --keep-dot: #6c63d4;
@@ -372,6 +378,10 @@ main {
 .tag-figured {
   background: var(--figured-bg);
   color: var(--figured-text);
+}
+.tag-reflection {
+  background: var(--reflection-bg);
+  color: var(--reflection-text);
 }
 .tag-keep {
   background: var(--keep-bg);
