@@ -34,6 +34,12 @@
   --figured-bg: #fdf0dc;
   --figured-text: #7a4a0a;
   --figured-dot: #ba7517;
+  --keep-bg: #ececfb;
+  --keep-text: #3d3a9e;
+  --keep-dot: #6c63d4;
+  --wins-bg: #fde8f4;
+  --wins-text: #8c1f5e;
+  --wins-dot: #c4407a;
 }
 
 [data-theme="dark"] {
@@ -54,6 +60,12 @@
   --fixed-text: #e89070;
   --figured-bg: #261a08;
   --figured-text: #e0aa60;
+  --keep-bg: #1c1a3a;
+  --keep-text: #a9a4f0;
+  --keep-dot: #6c63d4;
+  --wins-bg: #2a1020;
+  --wins-text: #e87ab8;
+  --wins-dot: #c4407a;
 }
 
 html {
@@ -361,7 +373,14 @@ main {
   background: var(--figured-bg);
   color: var(--figured-text);
 }
-
+.tag-keep {
+  background: var(--keep-bg);
+  color: var(--keep-text);
+}
+.tag-wins {
+  background: var(--wins-bg);
+  color: var(--wins-text);
+}
 .entry-desc {
   font-size: 0.8rem;
   color: var(--text2);
