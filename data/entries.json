@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-03-27",
+    "tag": "keep",
+    "title": "blogs to binge read",
+    "desc": "i very much enjoy binge reading short informative blogs compare to full fledge books, luckily found an ample list from near.blog",
+    "stack": [
+      "near.blog",
+      "x",
+      "reading"
+    ],
+    "link": "https://near.blog/links/"
+  },
+  {
     "date": "2026-03-26",
     "tag": "built",
     "title": "feat: add swagger yaml for api documentation",
