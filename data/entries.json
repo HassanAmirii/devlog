@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-03-28",
+    "tag": "wins",
+    "title": "github student pack",
+    "desc": "thanks to this opportunity ive been able to get access to lot of perks from free copilot to domain name, server credits, free courses etc",
+    "stack": [
+      "github"
+    ],
+    "link": "https://education.github.com/pack"
+  },
+  {
+    "date": "2026-03-28",
+    "tag": "learned",
+    "title": "nodejs-single threaded",
+    "desc": "node js is a single threaded runtime but manages to be non blocking through asyncronous operations-thanks to the event loop. from queuing apis(callback queue)-which follows fifo to call stack which follows lifo- to priotizing micro task such as (promise) to macro tasks such as timers or i/o operations",
+    "stack": [
+      "nodejs"
+    ]
+  },
+  {
     "date": "2026-03-27",
     "tag": "keep",
     "title": "blogs to binge read",
