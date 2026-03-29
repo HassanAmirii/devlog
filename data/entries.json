@@ -2,6 +2,18 @@
   {
     "date": "2026-03-29",
     "tag": "reflection",
+    "title": "solve the problem then write the code",
+    "desc": "-john johnson",
+    "stack": [
+      "write",
+      "think",
+      "solve",
+      "syntax"
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "tag": "reflection",
     "title": "work day / rest day",
     "desc": "i love to work very hard on week-days, light on saturdays and reflect on sundays",
     "stack": [
