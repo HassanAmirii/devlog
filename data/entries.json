@@ -1,10 +1,22 @@
 [
   {
+    "date": "2026-03-29",
+    "tag": "reflection",
+    "title": "work day / rest day",
+    "desc": "i love to work very hard on week-days, light on saturdays and reflect on sundays",
+    "stack": [
+      "reflection-week",
+      "sunday"
+    ]
+  },
+  {
     "date": "2026-03-28",
     "tag": "wins",
     "title": "github student pack",
     "desc": "thanks to this opportunity ive been able to get access to lot of perks from free copilot to domain name, server credits, free courses etc",
-    "stack": ["github"],
+    "stack": [
+      "github"
+    ],
     "link": "https://education.github.com/pack"
   },
   {
@@ -12,14 +24,20 @@
     "tag": "learned",
     "title": "nodejs-single threaded",
     "desc": "node js is a single threaded runtime but manages to be non blocking through asyncronous operations-thanks to the event loop. from queuing apis(callback queue)-which follows fifo to call stack which follows lifo- to priotizing micro task such as (promise) to macro tasks such as timers or i/o operations",
-    "stack": ["nodejs"]
+    "stack": [
+      "nodejs"
+    ]
   },
   {
     "date": "2026-03-27",
     "tag": "keep",
     "title": "blogs to binge read",
     "desc": "i very much enjoy binge reading short informative blogs compare to full fledge books, luckily found an ample list from near.blog",
-    "stack": ["near.blog", "x", "reading"],
+    "stack": [
+      "near.blog",
+      "x",
+      "reading"
+    ],
     "link": "https://near.blog/links/"
   },
   {
@@ -27,7 +45,11 @@
     "tag": "built",
     "title": "feat: add swagger yaml for api documentation",
     "desc": "add swagger yaml for api documentation",
-    "stack": ["men", "api", "backend"],
+    "stack": [
+      "men",
+      "api",
+      "backend"
+    ],
     "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/9bece0184ce62d03462637b47ab9b0018fa42b19"
   },
   {
@@ -35,7 +57,10 @@
     "tag": "built",
     "title": "global error handler",
     "desc": "fix: all catch error are to be handled by global error handler in app.js",
-    "stack": ["mern", "api"],
+    "stack": [
+      "mern",
+      "api"
+    ],
     "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/59ae05ed27dbd0f335059e2acac7559bcb462f32"
   },
   {
@@ -59,14 +84,26 @@
     "tag": "reflection",
     "title": "sitting with complexity",
     "desc": "realized the only way out of facing a sudden complexity while building is through complexity; most time when i come across one i alawys assume i needed to solve somthing simple first to be able to handle this or procrastinate to go work on something new or different. i was wrong and holding a wrong mindset.",
-    "stack": ["mindset", "confidence", "win", "learning", "forward"]
+    "stack": [
+      "mindset",
+      "confidence",
+      "win",
+      "learning",
+      "forward"
+    ]
   },
   {
     "date": "2026-03-23",
     "tag": "built",
     "title": "feat: implemented an exponential back off",
     "desc": "implemented an exponential back off to handle db connection retries within max time and eventually give up to process.exit 1 if failed",
-    "stack": ["server", "db", "mern", "personal_project", "api"],
+    "stack": [
+      "server",
+      "db",
+      "mern",
+      "personal_project",
+      "api"
+    ],
     "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/abc41bbf2363954c445182bd96e7055bcdecd753"
   },
   {
@@ -74,7 +111,13 @@
     "tag": "built",
     "title": "process.exit(1)",
     "desc": "add process exit 1 to terminate the server incase of db connectiion fail in other to manage resources, tho the process manager keeps restarting subsequently in hopes of a succeful connection",
-    "stack": ["nodejs", "backend", "mongodb", "mongoose", "personal-project"],
+    "stack": [
+      "nodejs",
+      "backend",
+      "mongodb",
+      "mongoose",
+      "personal-project"
+    ],
     "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/507fe6d0ff2aa3511655c9667298a3570d1ef50a"
   },
   {
@@ -82,7 +125,11 @@
     "tag": "built",
     "title": "add link input for log reference in new entry construct",
     "desc": "implemented link input to store reference of each log, so each log could be trace down for evidence",
-    "stack": ["cli", "js", "personal-project"],
+    "stack": [
+      "cli",
+      "js",
+      "personal-project"
+    ],
     "link": "https://www.npmjs.com/package/@hassan2bit/devlg"
   },
   {
@@ -118,48 +165,76 @@
     "tag": "reflection",
     "title": "systemic thinking : (state ->  event -> transition)",
     "desc": "A better approach to writing code instead of just iterating on a fractured thought, i start by really thinking from the user's pov, list out all possible state, event and transition and invariants. then begin wrting and reiterating on a solid system",
-    "stack": ["thinking", "foundation", "better"]
+    "stack": [
+      "thinking",
+      "foundation",
+      "better"
+    ]
   },
   {
     "date": "2026-03-19",
     "tag": "learned",
     "title": "Finished PHP control flow assignment",
     "desc": "understood how switch differs from if-else in edge cases",
-    "stack": ["php", "syntax", "uni"]
+    "stack": [
+      "php",
+      "syntax",
+      "uni"
+    ]
   },
   {
     "date": "2026-03-18",
     "tag": "fixed",
     "title": "Configured Cross-Origin Resource Sharing (CORS)",
     "desc": "Implemented CORS middleware to whitelist the production frontend URL. Defined allowed origins, methods, and headers to enable secure cross-domain communication between the frontend and the Python backend.",
-    "stack": ["Python", "fastapi.middleware.cors"]
+    "stack": [
+      "Python",
+      "fastapi.middleware.cors"
+    ]
   },
   {
     "date": "2026-03-18",
     "tag": "fixed",
     "title": "deploy a backend repo on render",
     "desc": "Successfully deployed backend repository to Render. Established secure database connectivity using Neon PostgreSQL connection strings and environment variable configuration.",
-    "stack": ["render(paas)", "neon(postgresql)", ".env(secret management)"]
+    "stack": [
+      "render(paas)",
+      "neon(postgresql)",
+      ".env(secret management)"
+    ]
   },
   {
     "date": "2026-03-18",
     "tag": "built",
     "title": "devlog-cli",
     "desc": "a cli that interactively create you a json file containing your dev logs based on \"built\", \"learnt\", \"figured out\"..etc",
-    "stack": ["javascript", "npm.js"]
+    "stack": [
+      "javascript",
+      "npm.js"
+    ]
   },
   {
     "date": "2026-03-18",
     "tag": "built",
     "title": "Deployed JIA — AI goal accountability app",
     "desc": "goal manager with AI advisor, heatmap, line chart, and weekly reflect tab. Wired to groq API for the chat layer.",
-    "stack": ["HTML", "CSS", "JS", "groq API", "Netlify"]
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS",
+      "groq API",
+      "Netlify"
+    ]
   },
   {
     "date": "2026-03-02",
     "tag": "built",
     "title": "Started CBT platform — MEN stack",
     "desc": "Scaffolded the university computer-based testing platform. MongoDB schemas for users, questions, exams. Express routes for auth and exam flow.",
-    "stack": ["Node.js", "Express", "MongoDB"]
+    "stack": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ]
   }
 ]
