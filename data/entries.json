@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-01",
+    "tag": "built",
+    "title": "finished (v1) of cbt api",
+    "desc": "Auth (register, login), JWT protected routes, Exam attempt with server-side time control, Score calculation against DB questions, Result persistence, Joi validation, Production-aware CORS, Global error handler, Swagger docs, Real questions seeded in MongoDB",
+    "stack": [
+      "men-stack",
+      "api",
+      "backend",
+      "personal-project",
+      "v1"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api"
+  },
+  {
     "date": "2026-03-29",
     "tag": "reflection",
     "title": "solve the problem then write the code",
