@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-04-03",
+    "tag": "keep",
+    "title": "i really want to make artistic films",
+    "desc": "but i cant, at least not right now, broke and i have to make programming work somehow so i can also venture into other passions",
+    "stack": [
+      "life",
+      "passion",
+      "art",
+      "dream"
+    ]
+  },
+  {
     "date": "2026-04-01",
     "tag": "built",
     "title": "finished (v1) of cbt api",
