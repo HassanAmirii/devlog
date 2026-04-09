@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-04-09",
+    "tag": "built",
+    "title": "url-shortner",
+    "desc": "takes a long url and gives short a version of it, can be retieved, deleted or updated.",
+    "stack": [
+      "mongodb",
+      "js",
+      "esm",
+      "api",
+      "express",
+      "personal-project"
+    ],
+    "link": "https://github.com/HassanAmirii/url-shortner"
+  },
+  {
+    "date": "2026-04-09",
+    "tag": "learned",
+    "title": "req.params vs req.query",
+    "desc": "in Restful style, req.params is for finding specific resources while the latter is for sorting, filtering etc",
+    "stack": [
+      "men"
+    ]
+  },
+  {
     "date": "2026-04-06",
     "tag": "keep",
     "title": "kogniz - cool projects / writes",
