@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-04-11",
+    "tag": "figured out",
+    "title": "how to do better at solving katas on codewars",
+    "desc": "so basically at EOD, it all deals with 3 steps understanding the problem really clear, pseducoding, follow by syntax writing, im just getting started so i easily get frustrated and alwasy tryign to dip when i mix the three steps together so i guess beware your demise dear hassan.",
+    "stack": [
+      "codewars",
+      "katas"
+    ]
+  },
+  {
+    "date": "2026-04-11",
     "tag": "reflection",
     "title": "tired & hopeful",
     "desc": "",
