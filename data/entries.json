@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-04-11",
+    "tag": "learned",
+    "title": "syncing local to match remote repo",
+    "desc": "1) git pull origin main : this is like soft adding yk u might face merge conflict and resolve etc , 2)  git fetch origin : another type of soft adding, yk you download the new chnages and to review or inspect them before adding . 3) git fetch origin /n git reset --hard origin/main : definitely looks like a hard reset , this overides all your local code and replace with the remote",
+    "stack": [
+      "git",
+      "github"
+    ]
+  },
+  {
+    "date": "2026-04-11",
     "tag": "figured out",
     "title": "how to do better at solving katas on codewars",
     "desc": "so basically at EOD, it all deals with 3 steps understanding the problem really clear, pseducoding, follow by syntax writing, im just getting started so i easily get frustrated and alwasy tryign to dip when i mix the three steps together so i guess beware your demise dear hassan.",
