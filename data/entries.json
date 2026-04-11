@@ -1,8 +1,10 @@
 [
-    {
+  {
     "date": "2026-04-11",
     "tag": "reflection",
-    "title": "tired & hopeful"
+    "title": "tired & hopeful",
+    "desc": "",
+    "stack": []
   },
   {
     "date": "2026-04-09",
