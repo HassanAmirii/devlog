@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-12",
+    "tag": "built",
+    "title": "Add cron to keep server alive",
+    "desc": "implemnted a 10 min interval cron job to call health endpoint using github actions",
+    "stack": [
+      ".github",
+      "workflows",
+      "api",
+      "cron"
+    ],
+    "link": "https://github.com/HassanAmirii/cbt-platform-api/commit/83eaaea94542dd31180cd3d6c03e6ec525705742"
+  },
+  {
     "date": "2026-04-11",
     "tag": "learned",
     "title": "syncing local to match remote repo",
