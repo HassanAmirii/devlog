@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-19",
+    "tag": "keep",
+    "title": "api guide",
+    "desc": "api guide link to binge read",
+    "stack": [
+      "api"
+    ],
+    "link": "https://botneve.com/api-design/rest-api-design-guide/"
+  },
+  {
     "date": "2026-04-12",
     "tag": "built",
     "title": "Add cron to keep server alive",
