@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-04-23",
+    "tag": "built",
+    "title": "implement rate limit",
+    "desc": "add rate limit to login, register, report end points",
+    "stack": [
+      "men",
+      "api",
+      "rate-limit"
+    ],
+    "link": "https://github.com/HassanAmirii/voicebox_api/commit/5b0ea08d00b5cdea0cc57e59bd3a86cf9a1f0960"
+  },
+  {
     "date": "2026-04-19",
     "tag": "keep",
     "title": "api guide",
